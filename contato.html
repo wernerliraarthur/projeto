@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Início</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container clearfix">
+            <a href="/">
+                <img src="img/logo scott.svg" alt="logo scott">
+            </a>
+            <ul>
+                <li>
+                    <a href="/">início</a>
+                </li>
+                <li>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container clearfix">
+            <img src="img/scott_ciclista2.jpg" alt="scott ciclista">
+        </div>
+    </header>
+
+    <main>
+        <div class="container clearfix">
+            <div class="col-12">
+                <form id="form_contato">
+                    <label for="nome">Informe seu Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required="true">
+
+                    <label for="email">Informe seu E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu E-mail" required="true">
+
+                    <label>Informe sua turma</label>
+                    <div class="form-group">
+                        <input type="radio" name="turma" id="turma_1A" value="1A" checked>
+                        <label for="turma_1A">1A</label>
+
+                        <input type="radio" name="turma" id="turma_1B" value="1B">
+                        <label for="turma_1B">1B</label>
+                    </div>
+
+                    <label for="nome">Motivo</label>
+                    <select name="motivo" id="motivo" required>
+                        <option value="">Selecione o Motivo</option>
+                        <option value="Duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="problema">Relatar Problema</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <label for="mensagem">Informe sua Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container clearfix">
+
+            <div class="col-3">
+                <ul>
+                    <h3>SERVIÇO AO CONSUMIDOR</h3>
+                    <li>Encontre um Agente</li>
+                    <li>Newsletter</li>
+                    <li>Contacto</li>
+                    <li> FAQ</li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <ul>
+                    <h3>MAIS</h3>
+                    <li>Todos os Produtos para Ciclismo</li>
+                    <li>Encontre a sua Bicicleta </li>
+                    <li>Registo da bicicleta</li>
+                    <li>Advertência</li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <ul>
+                    <h3>SOBRE NÓS </h3>
+                    <li>Política de privacidade</li>
+                    <li>Histórico</li>
+                    <li>Carreiras</li>
+                    <li>Jurídico</li>
+                </ul>
+            </div>
+
+            <div class="col-3">
+                <ul>
+                    <h3>SIGA-NOS</h3>
+                    <li>Facebook</li>
+                    <li>Intagram</li>
+                    <li>twitter</li>
+                    <li>You Tube</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container clearfix center">
+            <p> <a target =" _blank " href="https://www.scott-sports.com/br/pt/">Copyright © 2022 SCOTT Sports SA. All Rights Reserved.</a>
+            </p>
+            <p>R. Cândido Ramos, 261 - Capoeiras, Florianópolis - SC, 88090-800</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
