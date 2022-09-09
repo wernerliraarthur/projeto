@@ -186,7 +186,7 @@ main p {
 }
 
 .genius {
-    background-image: url(/img/2003-genius-revolutionary.jpg);
+    background-image: url(../img/2003-genius-revolutionary.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -197,7 +197,7 @@ main p {
 }
 
 .e-bike {
-    background-image: url(/img/e-bike.jpg);
+    background-image: url(../img/e-bike.jpg);
     background-size: contain;
     background-attachment: fixed;
     background-position: right;
